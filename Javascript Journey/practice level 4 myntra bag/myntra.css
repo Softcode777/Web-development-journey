@@ -1,0 +1,14 @@
+
+.bag-btn {
+  background-color: rgb(122, 250, 162);
+  border: none;
+  padding: 5px 15px 5px 15px ;
+  border-radius: 25px;
+  }
+  
+  .wishlist-btn {
+    padding:5px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }

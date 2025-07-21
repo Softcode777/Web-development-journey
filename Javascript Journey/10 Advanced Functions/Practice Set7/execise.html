@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise</title>
+  <style>
+    .btn-Subscribe {
+      height: 20px;
+      width: 80px;
+      font-size: 15px;
+      background-color: rgb(236, 0, 0);
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .size-double {
+      font-size: 30px;
+      height: 40px;
+      width: 160px;
+      ;
+    }
+  </style>
+</head>
+
+<button class="btn-Subscribe ">Subscribe</button>
+
+<body>
+  <script>
+
+
+
+
+
+    /* Task1
+        Create a variable multiply and assign a function to this 
+     variable that multiplies two numbers. Call this method from 
+     the variable.
+    let multilpy = (num1, num2) => num1 * num2;
+    console.log(multilpy(4, 5));*/
+
+    // Task2
+    // Create a function runTwice that takes a function as a parameter and then runs that method twice.
+
+    /*let printGreeting = () => console.log('Hello');
+    let runTwice = inputFunction => {
+      inputFunction();
+      inputFunction();
+    }
+    (runTwice(printGreeting));*/
+
+    // Task3 &4
+    // Create a button which should grow double in size on clicking after 2 seconds.  
+    // In the above exercise add the behavior using an event listener instead of onclick.
+
+
+    /*let buttonElement = document.querySelector('.btn-Subscribe'); 
+    buttonElement.addEventListener('click',event => 
+    setTimeout(doubleTheSize,2000)
+  );
+
+
+    function doubleTheSize() {
+      let buttonElement = document.querySelector('.btn-Subscribe');
+      buttonElement.classList.add('size-double');
+    }*/
+
+
+    // Task5
+
+    // Create a function that sums an array of numbers. Do this using a for-each loop.
+
+    // let arr = [1,2,3,4,5,6,7,8];
+    // let sum = 0;
+
+    // arr.forEach(num=> sum+= num);
+    // console.log(sum);
+
+    // Task6 
+    // Create a function that takes an array of numbers and return their squares using map function.
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+    let sqaures = arr.map(num => num * num);
+    console.log(sqaures);
+
+  </script>
+</body>
+
+</html>

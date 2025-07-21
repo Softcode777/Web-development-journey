@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .Box {
+        width: 70px;
+        height: 50px;
+        background-color: greenyellow;
+        margin: 5px;
+      }
+
+      #div1 {
+        position: static;
+      }
+
+      #box2 {
+        position: relative;
+        top: 10px;
+        left: 50px;
+      }
+
+      #box3 {
+        position: absolute;
+        top: 20px;
+
+      }
+
+      #box4 {
+        position: fixed;
+        right:50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1" class="Box">1 Static</div>
+    <div id="box2" class="Box">2 Relative</div>
+    <div id="box3" class="Box">3 Absolute</div>
+    <div id="box4" class="Box">4 Fixed</div>
+
+  </body>
+</html>

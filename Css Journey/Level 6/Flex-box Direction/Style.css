@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 75px;
+    width: 75px;
+    border: 3px solid rgb(27, 26, 26);
+    margin-right: 5px;
+    margin-top: 5px;
+   
+
+}
+
+
+
+#heading {
+    margin-left: 200px;
+
+}
+
+#container {
+    height: 300px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(156, 245, 236);
+    
+  
+
+
+}
+
+#box1 {
+    background-color: aqua;
+    order: 3;
+}
+
+#box2 {
+    background-color: rgb(121, 8, 144);
+ order: 1;   
+
+}
+
+#box3 {
+    background-color: rgb(251, 255, 0);
+    order: 4;
+}
+
+#box4 {
+    background-color: rgb(163, 81, 66);
+    order: 2;
+}

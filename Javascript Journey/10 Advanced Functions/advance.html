@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!-- <button id="my-button">ClickMe</button> -->
+<body>
+  <script>
+
+// Array method filter and map 
+
+// let arr = [1,2,3,,4,5,6,7,8,9];
+// let odds = arr.filter((num,index) => {
+//   if(num%2==1) {
+//     return true;
+    
+//   } else {
+//     return false;
+
+//   }
+// });
+//   console.log(odds);
+
+// using filter array method 
+
+// let arr = [1,2,3,,4,5,6,7,8,9];
+// let newOdds = arr.filter((num,index) => {
+//   return num%2 ===1;
+
+// });
+// console.log(newOdds);
+
+// map array method use 
+
+let arr = [1,2,3,4,5,6,7,8,9];
+let squares = arr.map(num=>{
+  return num*num;
+});
+console.log(squares);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let buttonElement = document.querySelector('#my-button');//Selects the button with id my-button.
+// let behaviour =event=>console.log('I am Clicked');//Defines what should happen when the button is clicked.
+// buttonElement.addEventListener('click',behaviour);//Connects the function to the button’s click event.
+
+// one more event to click button is added
+
+// let printDate = event => console.log(new Date());
+// buttonElement.addEventListener('click',printDate);
+
+
+// to remove action function reference is to be necessary ....on base of reefernece add and remove event listener like here we store in behaviour 
+
+// buttonElement.removeEventListener('click',behaviour);
+
+
+// let arr =[4,5,3,2,8];
+// for(let i=0;i<arr.length;i++){
+// console.log(arr[i]);
+// }
+// arr.forEach((num) => console.log(num));
+
+
+// search function 
+
+// let arr2 =[5,4,3,7,9,,8,2];
+// arr2.forEach(num => {
+//   if(num ===5 ) {
+//     return;
+//   }
+//   console.log('Visited:' + num);
+
+// })
+
+// let arr =[4,5,3,2,8];
+// function search(arr,num){
+//   for(let i=0;i<arr.length;i++){
+//   if (arr[i] ===num ) {
+//     console.log('Element found at ' + i);
+//     return;
+//   }
+// } 
+// console.log('Element was not Found');
+
+// }
+// search(arr,7);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //     let sum = function(num1,num2) {
+    //     return num1 + num2;
+    //     }
+    // let newSum = sum;
+    //     console.log(sum(4,5));
+    //     console.log(newSum(4,10));
+
+
+    // How anonymous function can be passed  as arguments to other function ?
+
+    // 4+5+7 function to add these 3 numbers 
+    // we can write 2 number functions ,,(4+5)+7
+
+//     let sum = function (num1, num2) {
+//       return num1 + num2;
+//     };
+//     let sumThreeNumbers = function(num1, num2, num3, sumTwoNumbrs) {
+//     let sum1 = sumTwoNumbrs(num1, num2);
+//     return sumTwoNumbrs(sum1, num3);
+//   };
+//     console.log(sumThreeNumbers(4, 5, 6, sum));
+
+// console.log(typeof sumThreeNumbers);
+
+
+// let sum =(num1, num2) => {
+//       return  num1 + num2;
+//     };
+    // let square = num => {
+    //   return num * num;
+    // }
+    // console.log((square(5)));
+    
+// let square = num=> num*num;
+// console.log(square(10));
+
+// let alarm =() =>
+//   console.log("its Morning! Wake up." +new Date()); 
+
+// let timerId = setTimeout(alarm,1000);
+// console.log('Alarm Rings 10 minutes before '+ ': ' + timerId);
+ 
+// clearTimeout(timerId);
+
+
+// let intervalId = setInterval(alarm,1000);
+// setTimeout( () => clearInterval(intervalId),5000);
+
+
+
+
+
+  </script>
+</body>
+
+</html>

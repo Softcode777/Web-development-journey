@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pad {
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+#First {
+    border: 4px solid;
+    border-radius: 15px;
+    background-color: rgb(13, 223, 234);
+    color: white;
+    /* box-sizing: border-box; */
+}
+
+#Second {
+    border: 3px  red;
+    background-color: rgb(2, 0, 128);
+    border-radius: 3px;
+    color: white;
+    /* box-sizing: content-box; */
+}
+
